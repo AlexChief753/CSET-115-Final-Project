@@ -1,0 +1,21 @@
+function signUp(source) {
+    let username = source.parentElement.children[1].value;
+    let password = source.parentElement.children[2].value;
+    if(username.length <= 7 || password.length <= 7 || username.indexOf(' ')!==-1 || password.indexOf(' ')!== -1) {
+        alert("Username and password must be at least 8 characters long, and cannot contain spaces.");
+    }
+    else {
+        localStorage.setItem(username, password);
+        alert("Your account has been created!");
+    }
+}
+function logIn(source) {
+    let username = source.parentElement.children[1].value;
+    let password = source.parentElement.children[2].value;
+    if (password == (localStorage.getItem(username))){
+        alert("Successfully logged in.");
+    }
+    else {
+        alert("Wrong.");
+    }
+}
