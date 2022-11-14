@@ -1,1 +1,6 @@
-Hello, World!
+Requirements:
+Login section and sign up section
+Store Login info to verify correct logins
+Create array of login info, perhaps have it remember despite reloading page
+Visually attractive design
+Particular product or service in mind
