@@ -1,0 +1,26 @@
+.body2{
+    background-color: black;
+    height: 100%;
+}
+
+.buy-drill img{
+    margin-left: 35%;
+    border-radius: 50px;
+    width: 25%;
+}
+
+#buy-button{
+    margin-left: 45%;
+    background-color: #e17f5a;
+    border: thin black 1px;
+    padding: 25px;
+    margin-top:10px;
+    border-radius: 25px;
+    font-size: large;
+}
+
+a:link{
+    text-decoration: none;
+    color:black;
+    
+}

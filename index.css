@@ -1,12 +1,50 @@
 * {
     box-sizing: border-box;
+    font-family: 'Allerta Stencil',sans-serif;
 }
+body {
+    background-image: url(images/hd-store-inside.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+}
+
+.back{
+ background-color: rgba(0, 0, 0, 0.7);
+ border: black thin 1px;
+ border-radius: 25px;
+ width: 40%;
+ padding: 1%;
+ padding-bottom: 2%;
+ text-align: center;
+ margin: 0 auto;
+ margin-top: 5%;
+}
+
+
 #header-section {}
-#top-header
-#login {}
-.header {}
-.text-input {
-    display: block;
+#top-header {
+    font-size: 250%;
 }
-.btn {}
+#login {}
+.header {
+    font-size: 150%;
+}
+.text-input {
+    padding: 0.8%;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 0.8%;
+}
+.btn {
+    background-color: #e17f5a;
+    border-radius: 25px;
+    border: solid 1px black;
+    margin-top: 2%;
+}
 #signup {}
+#firstbtn {
+    margin-bottom: 3%;
+}

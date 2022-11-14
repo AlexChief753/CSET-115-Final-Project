@@ -17,6 +17,7 @@ function logIn(source) {
     }
     else if (password == (localStorage.getItem(username))) {
         alert("Successfully logged in.");
+        window.location = "dashboard.html";
     }
     else {
         alert("Incorrect password.");
