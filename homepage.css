@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+}
+nav {
+    background-color: orangered;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+a {
+    vertical-align: middle;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
