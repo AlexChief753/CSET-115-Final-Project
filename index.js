@@ -16,7 +16,6 @@ function logIn(source) {
         alert("This account does not exist.");
     }
     else if (password == (localStorage.getItem(username))) {
-        alert("Successfully logged in.");
         window.location = "dashboard.html";
     }
     else {
