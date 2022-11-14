@@ -12,10 +12,13 @@ function signUp(source) {
 function logIn(source) {
     let username = source.parentElement.children[1].value;
     let password = source.parentElement.children[2].value;
-    if (password == (localStorage.getItem(username))){
+    if (localStorage.getItem(username) === null) {
+        alert("This account does not exist.");
+    }
+    else if (password == (localStorage.getItem(username))) {
         alert("Successfully logged in.");
     }
     else {
-        alert("Wrong.");
+        alert("Incorrect password.");
     }
 }
